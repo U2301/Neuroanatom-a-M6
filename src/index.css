@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  .bg-notebook {
+    background-image: radial-gradient(#d3c9bf 0.85px, transparent 0.85px);
+    background-size: 20px 20px;
+  }
+  .bg-lined-subtle {
+    background: linear-gradient(180deg, transparent 96%, rgba(193, 200, 192, 0.3) 97%);
+    background-size: 100% 28px;
+  }
+  .washi-tape {
+    background: rgba(235, 219, 188, 0.9);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 1px 3px rgba(90, 60, 30, 0.15);
+  }
+  .shadow-parchment {
+    box-shadow: 0 4px 20px -2px rgba(92, 61, 40, 0.08), 0 2px 6px -1px rgba(92, 61, 40, 0.04);
+  }
+  .shadow-card-lift {
+    box-shadow: 0 10px 30px -5px rgba(67, 109, 83, 0.12), 0 4px 8px -2px rgba(43, 85, 60, 0.06);
+  }
+}
+
+/* Custom refined scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4ece7;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c8c0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #717972;
+}
+
+#network-container {
+  width: 100%;
+  height: 580px;
+  outline: none;
+}

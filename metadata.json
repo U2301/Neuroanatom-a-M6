@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Neuro anato M6",
+  "description": "Plataforma de estudio para la clase de Neuroanatomía con mapa interactivo de influencias, línea de tiempo, disciplinas y tarjetas de repaso.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

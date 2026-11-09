@@ -1,0 +1,3 @@
+# Allow committing class lecture markdown and transcription files for GitHub Pages
+!*.md
+!*.txt
